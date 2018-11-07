@@ -94,6 +94,7 @@ const login = async ctx=>{
       })
       ctx.status = 200
       console.log(doc.username);
+      console.log(doc.password);
       ctx.body = {
         success:true,
         message:'登录成功',
